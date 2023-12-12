@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pemesanan Makeup</title>
+</head>
+<body>
+    <h1>Form Pemesanan Makeup</h1>
+    <form action="submit.php" method="post"></form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="nomor">Nomor Telepon:</label>
+        <input type="text" id="nomor" name="nomor" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="tanggal">Tanggal Acara:</label>
+        <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+        <label for="hari">Hari Pembookingan:</label>
+        <input type="text" id="hari" name="hari" required><br><br>
+
+        <label for="paket">Pilih Paket:</label>
+        <select id="paket" name="paket">
+            <option value="Paket 1">Paket 1</option>
+            <option value="Paket 2">Paket 2</option>
+            <option value="Paket 3">Paket 3</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
